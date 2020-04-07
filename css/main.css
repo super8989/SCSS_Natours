@@ -1128,6 +1128,12 @@ body {
   list-style: none;
 }
 
+@media (max-width: 56.25em) {
+  .footer__list {
+    font-size: 1.2rem;
+  }
+}
+
 .footer__item {
   display: inline-block;
 }
@@ -1166,6 +1172,7 @@ body {
     width: 100%;
     float: none;
     text-align: center;
+    font-size: 1.2rem;
   }
 }
 
