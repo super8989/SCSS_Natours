@@ -1351,6 +1351,7 @@ body {
   width: 0;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
+  visibility: hidden;
 }
 
 .navigation__list {
@@ -1402,6 +1403,7 @@ body {
 .navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;
   width: 100%;
+  visibility: visible;
 }
 
 .navigation__icon {
